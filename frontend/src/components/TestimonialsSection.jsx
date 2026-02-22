@@ -110,13 +110,13 @@ export const TestimonialsSection = () => {
                 </div>
 
                 {/* Navigation */}
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-4 relative z-20">
                   <Button
                     variant="outline"
                     size="icon"
                     data-testid="testimonial-prev"
                     onClick={goToPrevious}
-                    className="border-white/20 text-white hover:bg-white/10 hover:text-white"
+                    className="border-white/20 text-white hover:bg-white/10 hover:text-white relative z-20"
                   >
                     <ChevronLeft className="w-5 h-5" />
                   </Button>
@@ -125,7 +125,7 @@ export const TestimonialsSection = () => {
                     size="icon"
                     data-testid="testimonial-next"
                     onClick={goToNext}
-                    className="border-white/20 text-white hover:bg-white/10 hover:text-white"
+                    className="border-white/20 text-white hover:bg-white/10 hover:text-white relative z-20"
                   >
                     <ChevronRight className="w-5 h-5" />
                   </Button>
@@ -134,7 +134,7 @@ export const TestimonialsSection = () => {
             </div>
 
             {/* Decorative Element */}
-            <div className="absolute bottom-0 right-0 w-32 h-32 bg-[#DC2626]/10" />
+            <div className="absolute bottom-0 right-0 w-32 h-32 bg-[#DC2626]/10 pointer-events-none" />
           </div>
 
           {/* Dots Indicator */}
