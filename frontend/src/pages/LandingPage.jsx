@@ -5,7 +5,6 @@ import ServicesSection from "@/components/ServicesSection";
 import ProcessSection from "@/components/ProcessSection";
 import WhyUsSection from "@/components/WhyUsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
-import FAQSection from "@/components/FAQSection";
 import ContactSection from "@/components/ContactSection";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
@@ -50,7 +49,6 @@ export default function LandingPage() {
         <ProcessSection />
         <WhyUsSection />
         <TestimonialsSection />
-        <FAQSection />
         <ContactSection />
         <FinalCTA />
       </main>

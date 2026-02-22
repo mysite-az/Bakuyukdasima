@@ -6,7 +6,6 @@ const navigation = [
   { label: "Proses", href: "#process" },
   { label: "Niyə Biz", href: "#why-us" },
   { label: "Şərhlər", href: "#testimonials" },
-  { label: "FAQ", href: "#faq" },
   { label: "Əlaqə", href: "#contact" },
 ];
 
