@@ -1,0 +1,150 @@
+{
+  "design_system": {
+    "typography": {
+      "font_family": {
+        "heading": "Oswald, sans-serif",
+        "body": "Inter, sans-serif"
+      },
+      "scale": {
+        "h1": "text-5xl md:text-7xl font-bold tracking-tight uppercase",
+        "h2": "text-4xl md:text-5xl font-bold tracking-tight uppercase",
+        "h3": "text-2xl md:text-3xl font-semibold uppercase",
+        "body_lg": "text-lg md:text-xl leading-relaxed",
+        "body": "text-base leading-relaxed text-muted-foreground"
+      }
+    },
+    "colors": {
+      "palette": {
+        "primary": "#DC2626",
+        "primary_foreground": "#FFFFFF",
+        "secondary": "#F3F4F6",
+        "secondary_foreground": "#111827",
+        "background": "#FFFFFF",
+        "foreground": "#09090B",
+        "muted": "#F3F4F6",
+        "muted_foreground": "#64748B",
+        "border": "#E2E8F0",
+        "accent": "#FEF2F2",
+        "accent_foreground": "#DC2626"
+      },
+      "usage": {
+        "primary_action": "bg-[#DC2626] hover:bg-[#B91C1C] text-white shadow-lg shadow-red-500/20",
+        "secondary_action": "bg-white border-2 border-[#DC2626] text-[#DC2626] hover:bg-red-50",
+        "background_section": "bg-white",
+        "background_alt": "bg-zinc-50"
+      }
+    },
+    "layout": {
+      "container": "container mx-auto px-4 md:px-6 max-w-7xl",
+      "section_spacing": "py-20 md:py-32",
+      "grid_bento": "grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[minmax(200px,auto)]",
+      "card_style": "bg-white border border-zinc-100 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 rounded-xl overflow-hidden"
+    },
+    "visual_enhancers": {
+      "radius": "rounded-none md:rounded-lg",
+      "shadows": "shadow-[0_8px_30px_rgb(0,0,0,0.04)]",
+      "animations": {
+        "hover_lift": "hover:-translate-y-2 transition-transform duration-300 ease-out",
+        "fade_in": "animate-in fade-in duration-700 slide-in-from-bottom-8",
+        "parallax": "transition-transform duration-75 ease-out"
+      }
+    }
+  },
+  "assets": {
+    "images": {
+      "hero_bg": "https://images.unsplash.com/photo-1758523670969-dd1b1254062d?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "truck_cutout": "https://images.unsplash.com/photo-1746985106190-6c116edec9bc?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "service_moving": "https://images.unsplash.com/photo-1694715669993-ea0022b470f7?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "service_assembly": "https://images.pexels.com/photos/5217124/pexels-photo-5217124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "service_packing": "https://images.unsplash.com/photo-1762902070741-c837a832ee7b?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "trust_social": "https://images.pexels.com/photos/4554240/pexels-photo-4554240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "process_step_1": "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&q=80",
+      "process_step_2": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&q=80",
+      "process_step_3": "https://images.unsplash.com/photo-1600518464441-9154a4dea21b?auto=format&fit=crop&q=80"
+    },
+    "icons": "lucide-react"
+  },
+  "content_strategy": {
+    "language": "az",
+    "brand_name": "Baku Yükdaşıma Xidməti",
+    "phone": "+994 77 320 40 33",
+    "navigation": [
+      { "label": "Ana Səhifə", "href": "#hero" },
+      { "label": "Xidmətlər", "href": "#services" },
+      { "label": "Haqqımızda", "href": "#why-us" },
+      { "label": "Əlaqə", "href": "#contact" }
+    ],
+    "hero": {
+      "headline": "Sürətli və Təhlükəsiz Yükdaşıma",
+      "subheadline": "Bakı daxili və ətraf ərazilərdə peşəkar ev və ofis köçürülməsi xidməti. Əşyalarınızı bizə etibar edin.",
+      "cta_primary": "Sifariş Et",
+      "cta_secondary": "Əlaqə Saxla"
+    },
+    "services": [
+      { "title": "Ev Köçürülməsi", "desc": "Mənzillərin tam təhlükəsiz və sığortalı daşınması.", "icon": "Home" },
+      { "title": "Ofis Köçürülməsi", "desc": "İş yerinizin sürətli və nizamlı şəkildə köçürülməsi.", "icon": "Building2" },
+      { "title": "Mebellərin Quraşdırılması", "desc": "Peşəkar ustalar tərəfindən mebellərin sökülməsi və yığılması.", "icon": "Hammer" },
+      { "title": "Fəhlə Xidməti", "desc": "Ağır yüklərin daşınması üçün fiziki qüvvə.", "icon": "Users" },
+      { "title": "Yük Taksisi", "desc": "Kiçik həcmli yüklər üçün sərfəli daşınma.", "icon": "Truck" }
+    ],
+    "process_steps": [
+      { "number": "01", "title": "Əlaqə", "desc": "Bizimlə əlaqə saxlayın və ehtiyaclarınızı bildirin." },
+      { "number": "02", "title": "Qiymətləndirmə", "desc": "Yükünüzün həcminə uyğun qiymət təklifi alın." },
+      { "number": "03", "title": "Daşınma", "desc": "Təyin olunmuş vaxtda komandamız işə başlayır." },
+      { "number": "04", "title": "Təhvil", "desc": "Əşyalarınız yeni ünvanda sizə təhvil verilir." }
+    ],
+    "why_us": [
+      { "title": "Peşəkar Komanda", "desc": "İşini bilən və təcrübəli heyət." },
+      { "title": "Sığortalı Daşınma", "desc": "Əşyalarınızın təhlükəsizliyinə zəmanət veririk." },
+      { "title": "Münasib Qiymət", "desc": "Büdcənizə uyğun sərfəli qiymətlər." },
+      { "title": "7/24 Xidmət", "desc": "Həftənin hər günü, günün istənilən vaxtı." }
+    ]
+  },
+  "implementation_rules": {
+    "do": [
+      "Use 'Oswald' font for all headings to convey strength and stability.",
+      "Use a sticky header with a glassmorphism effect (white/80 + blur).",
+      "Implement smooth scroll for anchor links.",
+      "Use Lucide icons with stroke-width 1.5 for a modern look.",
+      "Add a 'Call Now' floating button on mobile screens.",
+      "Ensure the contact form has 'name', 'phone', 'service_type', and 'message' fields.",
+      "Use 'sonner' for form submission success/error toasts.",
+      "Add data-testid attributes to all interactive elements."
+    ],
+    "dont": [
+      "Do NOT use generic gradients. Use solid colors or subtle patterns.",
+      "Do NOT use avatars in testimonials (User requirement: names only).",
+      "Do NOT center align long paragraphs of text.",
+      "Do NOT use English text in the final UI (Translate everything to Azerbaijani)."
+    ]
+  },
+  "universal_guidelines": {
+    "general": [
+      "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients",
+      "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+      "Create depth through layered design elements with z-index hierarchy",
+      "Use glass-morphism effects with backdrop filters (12-24px blur)",
+      "You MUST NOT apply universal transition. Eg: transition: all. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms",
+      "You MUST NOT center align the app container, ie do not add .App { text-align: center; } in the css file. This disrupts the human natural reading flow of text",
+      "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style",
+      "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡 etc for icons.",
+      "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+      "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+      "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+      "Main agent relies on these image URLs. Missing categories = main agent will use placeholder text which is FORBIDDEN"
+    ],
+    "component_reuse": [
+      "Prioritize using pre-existing components from src/components/ui when applicable",
+      "Create new components that match the style and conventions of existing components when needed",
+      "Examine existing components to understand the project's component patterns before creating new ones"
+    ],
+    "export_conventions": [
+      "Components MUST use named exports (export const ComponentName = ...)",
+      "Pages MUST use default exports (export default function PageName() {...})"
+    ],
+    "toasts": [
+      "Use 'sonner' for toasts",
+      "Sonner component are located in /app/src/components/ui/sonner.tsx"
+    ]
+  }
+}
