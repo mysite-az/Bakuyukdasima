@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Phone, Menu, X } from "lucide-react";
+import { Phone, Menu, X, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navigation = [
@@ -81,13 +81,17 @@ export const Header = ({ scrollY }) => {
               <Phone className="w-4 h-4" />
               <span>+994 77 320 40 33</span>
             </a>
-            <Button
+            <a
+              href="https://wa.me/994773204033?text=Salam,%20yükdaşıma%20xidməti%20haqqında%20məlumat%20almaq%20istəyirəm"
+              target="_blank"
+              rel="noopener noreferrer"
               data-testid="header-cta"
-              onClick={(e) => handleNavClick(e, "#contact")}
-              className="hidden sm:flex btn-primary text-sm"
             >
-              Pulsuz Məsləhət
-            </Button>
+              <Button className="hidden sm:flex btn-primary text-sm gap-2">
+                <MessageCircle className="w-4 h-4" />
+                WhatsApp ilə Əlaqə
+              </Button>
+            </a>
 
             {/* Mobile Menu Button */}
             <button
