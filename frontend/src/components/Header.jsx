@@ -38,17 +38,14 @@ export const Header = ({ scrollY }) => {
             href="#hero"
             onClick={(e) => handleNavClick(e, "#hero")}
             data-testid="logo"
-            className="flex items-center gap-2"
+            className="flex items-center"
           >
-            <div className="w-10 h-10 bg-[#DC2626] flex items-center justify-center">
-              <span className="text-white font-bold text-xl font-['Oswald']">B</span>
-            </div>
             <span
-              className={`font-['Oswald'] font-bold text-lg uppercase tracking-tight hidden sm:block transition-colors duration-300 ${
+              className={`font-['Oswald'] font-bold text-lg md:text-xl uppercase tracking-tight transition-colors duration-300 ${
                 isScrolled ? "text-gray-900" : "text-white"
               }`}
             >
-              Baku Yükdaşıma
+              BAKU YÜKDAŞIMA <span className="text-[#DC2626]">XİDMƏTİ</span>
             </span>
           </a>
 

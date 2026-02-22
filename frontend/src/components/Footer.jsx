@@ -36,14 +36,9 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 bg-[#DC2626] flex items-center justify-center">
-                <span className="text-white font-bold text-xl font-['Oswald']">
-                  B
-                </span>
-              </div>
+            <div className="flex items-center mb-6">
               <span className="font-['Oswald'] font-bold text-lg uppercase tracking-tight text-white">
-                Baku Yükdaşıma
+                BAKU YÜKDAŞIMA <span className="text-[#DC2626]">XİDMƏTİ</span>
               </span>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6">
