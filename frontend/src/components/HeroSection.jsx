@@ -19,7 +19,7 @@ export const HeroSection = () => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://customer-assets.emergentagent.com/job_baku-moving/artifacts/dedxgtg6_ChatGPT%20Image%20Feb%2028%2C%202026%2C%2010_35_32%20PM.png')`,
+          backgroundImage: `url('https://customer-assets.emergentagent.com/job_baku-moving/artifacts/yy9psfl7_ChatGPT%20Image%20Feb%2028%2C%202026%2C%2010_46_23%20PM.png')`,
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
