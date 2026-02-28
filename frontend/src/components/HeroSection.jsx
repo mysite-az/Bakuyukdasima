@@ -45,9 +45,9 @@ export const HeroSection = () => {
             className="text-5xl md:text-6xl lg:text-7xl font-bold text-white uppercase tracking-tight leading-[1.1] mb-6 animate-fade-in-up"
             style={{ animationDelay: "0.2s", fontFamily: "'Oswald', sans-serif" }}
           >
-            Baku Yükdaşıma
+            Bakıda Ən Münasib
             <br />
-            <span className="text-[#DC2626]">Xidməti</span>
+            Yükdaşıma Xidməti
           </h1>
 
           {/* Subheading */}

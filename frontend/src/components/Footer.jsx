@@ -142,7 +142,15 @@ export const Footer = () => {
               qorunur.
             </p>
             <p className="text-gray-500 text-sm">
-              Bakı, Azərbaycan | Sürətli və Etibarlı Yükdaşıma
+              Developed by{" "}
+              <a
+                href="https://mysitesolutions.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#DC2626] hover:text-red-400 transition-colors font-medium"
+              >
+                Mysite
+              </a>
             </p>
           </div>
         </div>

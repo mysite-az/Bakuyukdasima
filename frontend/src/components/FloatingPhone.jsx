@@ -1,4 +1,4 @@
-import { Phone, MessageCircle } from "lucide-react";
+import { Phone } from "lucide-react";
 
 export const FloatingPhone = () => {
   return (
@@ -9,10 +9,14 @@ export const FloatingPhone = () => {
         target="_blank"
         rel="noopener noreferrer"
         data-testid="floating-whatsapp-btn"
-        className="fixed bottom-24 right-6 z-50 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-[#20BA5C] transition-all duration-300 hover:scale-110"
+        className="fixed bottom-24 right-6 z-50 w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform duration-300"
         aria-label="WhatsApp ilə yazın"
       >
-        <MessageCircle className="w-7 h-7" strokeWidth={2} />
+        <img 
+          src="https://customer-assets.emergentagent.com/job_baku-moving/artifacts/oois4l5h_unnamed%20%281%29.png" 
+          alt="WhatsApp"
+          className="w-14 h-14"
+        />
       </a>
 
       {/* Phone Button - Mobile only */}
