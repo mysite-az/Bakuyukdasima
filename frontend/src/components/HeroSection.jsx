@@ -42,7 +42,7 @@ export const HeroSection = () => {
           {/* Main Heading */}
           <h1
             data-testid="hero-heading"
-            className="text-5xl md:text-6xl lg:text-7xl font-bold text-white uppercase tracking-tight leading-[1.1] mb-6 animate-fade-in-up"
+            className="text-5xl md:text-6xl lg:text-7xl font-bold text-white uppercase tracking-tight leading-[1.2] mb-6 animate-fade-in-up"
             style={{ animationDelay: "0.2s", fontFamily: "'Oswald', sans-serif" }}
           >
             Bakıda Ən Münasib
